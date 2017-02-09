@@ -1,0 +1,35 @@
+body { background: linear-gradient(37deg, rgb(50, 15, 0), silver, rgb(50, 15, 0), silver, rgb(50, 15, 0), silver);
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+}
+
+p { color: black; 
+	text-align:center;
+}
+
+h1 { display:block; 
+	text-align:center; 
+	font-family:Helvetica; 
+	text-decoration:underline; 
+	padding: 0 0 20px 0;
+}
+
+.goal { color:rgb(40, 10, 140); }
+.pivot { color:rgb(40, 120, 10); }
+.ailier { color:rgb(70, 150, 150); }
+.arriere { color:rgb(40, 58, 150); }
+.demi { color:rgb(230, 30, 50); }
+
+li { list-style: none; 
+	margin-left: -30px;
+}
+
+.joue { font-weight:bold; 
+	margin: 20px 0 0 inherit;
+}
+
+.ajouter {
+	font-size:13px;
+	padding:3px 0 0 2px;
+	text-decoration:underline;
+}
