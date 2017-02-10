@@ -1,0 +1,152 @@
+.little { font-size:18px; }
+
+.big { font-size:35px }
+
+strong {
+	font-size: 110%;
+	color: silver;
+}
+
+p { color: silver; }
+
+a { color: teal;
+	text-decoration: none; 
+}
+
+h2 {
+	text-align: center;
+	color: teal;
+}
+
+.menu a:hover {
+	font-style: italic;
+}
+
+section a:hover {
+	font-style: italic;
+}
+
+body { text-align: normal; 
+	background: rgb(20, 20, 20);
+}
+	
+	
+.p1, .p2 { 
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 3px 2px 4px black;
+	width: 220px;
+	border: 2px dashed #bd1212;
+	/* border-width: 2px;
+	border-style: dashed;
+	border-color: #bd1212; */
+	border-radius: 30px; 
+	padding: 4px;
+	margin-left: 30%; }
+
+header .menu a {
+	padding: 5px 12px 5px 12px;
+	margin: 0 -4.5px 0 -4.5px;
+   border-left: 1px solid silver;
+   border-right: 1px solid silver;
+   font-size: 20px;
+}
+
+footer .menu a {
+	padding: 5px 12px 5px 12px;
+	margin: 0 -3px 0 -3px;
+   border-left: 1px solid silver;
+   border-right: 1px solid silver;
+   font-size: 20px;
+}
+
+footer .menu div {
+	display: inline;
+	padding: 5px 12px 5px 12px;
+	margin: 0 -3px 0 -3px;
+   border-left: 1px solid silver;
+   border-right: 1px solid silver;
+   font-size: 20px;
+   color: teal;
+	text-decoration: none;
+}
+
+footer .menu div:hover {
+	font-style: italic;
+}
+
+footer .menu .nousContacter:hover {
+	.contact > font-size: 60px;
+	.contact > text-align: left;
+}
+
+img {
+	margin-left: 20%;
+	border: 2px solid black;
+}
+
+img:hover {
+	filter: opacity(30%);
+}
+
+header {
+	margin: 15px 20px -7px 20px;
+	text-align: center;
+	font-size: 30px;
+	color: silver;
+	display: block;
+	border: 1px solid black;
+	padding: 20px;
+	position: initial;
+	background: rgb(50, 50, 50);
+	font-family: helvetica;
+} 
+
+section {
+	margin: 15px 20px -7px 20px;
+	text-align: justify;
+	font-size: 18px;
+	color: silver;
+	display: block;
+	border: 1px solid black;
+	padding: 20px;
+	position: initial;
+	background: rgb(50, 50, 50);
+	font-family: helvetica;
+} 
+
+header .title strong {
+	font-size: 45px; 
+	color: silver;
+} 
+body {
+
+}
+
+header:hover {
+	filter:brightness(110%);
+	filter: contrast(110%);
+}
+
+section:hover {
+	filter: brightness(110%);
+	filter: contrast(110%);
+}
+
+footer {
+	margin: 15px 20px -7px 20px;
+	text-align: center;
+	font-size: 18px;
+	color: silver;
+	display: block;
+	border: 1px solid black;
+	padding: 20px;
+	position: initial;
+	background: rgb(50, 50, 50);
+	font-family: helvetica;
+}
+
+footer:hover {
+	filter: brightness(110%);	
+	filter: contrast(110%);
+}
