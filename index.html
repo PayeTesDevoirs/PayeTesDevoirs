@@ -1,56 +1,112 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8"/>
-		<title> PTD.com - Accueil </title>
-		<link rel="stylesheet" href="css/style.css"/>
-		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>-->
-	</head>
-	<body>
-		<header>
-			<a href="index.html">
-				<span class="title">
-					<strong href="index.html">Paye Tes Devoirs</strong>.com		
-				</span>
-			</a>
-			<br/>
-			<div class="menu">
-				<a href="index.html">Accueil</a>
-				<a href="lol.html">lol</a>
-				<a href="../BasePage.html">basePage</a>
-				<a href="font.html">font</a>
-			</div>		
-		</header>	
-		
-		<section>
-			<p>
-				<a href="index.html"><strong>Paye Tes Devoirs</strong>.com</a> est un site créé par et pour les élèves dans le but de vous aider dans vos pires moments : les devoirs. Il fonctionne sur un principe très simple d'échange totalement gratuit pour l'instant, pour que tout le monde puisse en profiter. Ainsi, si vous envoyez des corrigés ou des rédactions, vous serez crédités de points que vous pourrez réutiliser pour consulter ceux des autres. <a href="detailfonctionnement.html"> Détails ici</a>
-			</p>
-		</section>
-		<section>
-			        
-		</section>
-		<section>
-			<p>
-				Go to <a href= "lol.html">lol</a> ! <br />		
-				Go to <a href = "font.html">font</a> ! <br />
-			</p>
-		</section>
-		<footer>
-			<div class="menu">
-				<div class="nousContacter">nous contacter</div>
-				<div>langue</div>
-				<a href="facebook">FaceBook</a>
-				<a href="twitter">Twitter</a>
-				<a href="instagram">Instagram</a>
-			</div>
-			<div class="contact">
-				<a href="mailto:payetesdevoirs@gmail.com">mail</a>
-				<div>Tel</div>
-			</div>		
-		</footer>
-		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script src="js/script.js" type="text/javascript"></script>	
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-	</body>
+        <head>
+                <meta charset="UTF-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+                <title> PTD.com - Accueil </title>
+                <link rel="stylesheet" href="css/style.css"/>
+                <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"/>
+        </head>
+        <body>
+                <a href="search.html" class="iSearch">
+                        <img src="img/search.jpeg"/>
+                        <figcaption>Rechercher un corrigé</figcaption>
+                </a>
+                <div class="iMenu">
+                        <img src="img/menu.png"/>
+                        <menu>
+                                <a href="home.html" class="noBorder">Home</a>
+                                <a href="lol.html">lol</a>
+                                <a href="../BasePage.html">basePage</a>
+                                <a href="font.html">font</a>
+                                <a href="connection.html">Connection</a>
+                                <a href="inscription">Inscription</a>
+                        </menu>
+                </div>
+                <a href="home.html" class="iHome">
+                        <img src="img/home.png"/>
+                        <figcaption>Home</figcaption>
+                </a>
+
+                <div class="container">
+                        <div class="row">
+                                <div class="col-xs-12 header">
+                                        <header>
+                                                <a class="title" href="index.html"><br/><br/>
+                                                        <strong href="index.html">Paye Tes Devoirs</strong>.com
+                                                </a>
+                                                <br/><br/>
+                                        </header>
+                                </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-xs-12 barre"><br/></div>
+                        </div>
+                        <div class="row">
+                                <div class="col-xs-12">
+                                        <div class="row colCentered">
+                                                <div class="col-xs-6">
+                                                        <a href="connection.html">Connection</a>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                        <a href="inscription.html">Inscription</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-xs-12 barre"><br/></div>
+                        </div>
+                        <div class="row">
+                                <div class="col-xs-12">
+                                        <ul>
+                                                <li>
+                                                        <a class="title" href="index.html"><strong>Paye Tes Devoirs</strong>.com</a> est un site créé par et pour les élèves dans le but                                                        de vous aider dans vos pires moments : les devoirs. Il fonctionne sur un principe très simple d'échange totalement gratuit pour                                                                 l'instant, pour que tout le monde puisse en profiter. Ainsi, si vous envoyez des corrigés ou des rédactions, vous serez crédités                                                        de points que vous pourrez réutiliser pour consulter ceux des autres. Plus votre devoir est utile et choisi par les autres                                                      utilisateurs, plus il vous rapporte de points. <a href="detailfonctionnement.html"> Détails ici
+                                                        </a>
+                                                </li><br/>
+                                                <li>
+                                                        <a class="title" href="index.html"><strong>Paye Tes Devoirs</strong>.com</a> est un site exclusivement réservé au collégiens                                                            (peut-être étendu plus tard aux écoles/lycées), et il vous sera demandé au moment de l'inscription de renseigner votre collège.                                                                 Cela sera également utile pour retrouver vos amis.
+                                                </li><br/>
+                                                <li>
+                                                        Le site est encore en développement, nous recherchons des collégiens enthousiastes prêt à passer du temps sur un projet qui ne                                                          donnera rien :) les compétences recherchées sont du domaine de la programmation, en particulier en javascript, php, MySQL (ou                                                   plus récent),... Pour l'instant, nous ne gagnons pas d'argent (système totalement gratuit et sans pub), mais cela viendra sans                                                          doute.
+                                                </li><br/>
+                                        </ul>
+                                </div>          
+                        </div>
+                        <div class="row">
+                                <div class="col-xs-12 footer">
+                                        <footer>
+                                                <div class="menu">
+                                                        <ul>
+                                                                <li> 
+                                                                        <a class="nContact">nous contacter</a> |
+                                                                        <div class="contact">
+                                                                                <a href="mailto:payetesdevoirs@gmail.com">Mail</a> |
+                                                                                <a>Tel</a>
+                                                                        </div>
+                                                                </li>
+                                                                <li>
+                                                                        <a class="nSuivre">nous suivre</a> |
+                                                                        <div class="suivre">
+                                                                                <a href="facebook">FaceBook</a> |
+                                                                                <a href="twitter">Twitter</a> |
+                                                                                <a href="instagram">Instagram</a> |
+                                                                        </div>
+                                                                </li>
+                                                                <li>
+                                                                        <a href="settings.html">réglages</a>
+                                                                </li>
+                                                        </ul>
+                                                        
+                                                        
+                                                </div>
+                                        </footer>
+                                </div>
+                        </div>
+                </div>
+        
+                <!--<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>-->
+                <script src="js/script.js" type="text/javascript"></script>
+                <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>-->
+        </body>
 </html>
