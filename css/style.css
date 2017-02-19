@@ -1,0 +1,234 @@
+[class*="col-"] {
+  background-color: rgb(220, 220, 220);
+  line-height: 3.8svw;
+  text-align: justify;
+  color: black;
+  padding: 10px 50px 10px 25px;
+}
+
+[class*="col-"]:hover, [class*="col-"]:hover > section article div .imgContain {
+        filter: brightness(96%);
+}
+
+.iMenu menu a {
+        text-align: center;
+        display: block;
+        padding: 10px;
+        margin: -1px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        background: rgb(150, 150, 150);
+}
+
+.col-xs-2 {
+        display: inline;
+        margin: 5px;
+        padding: 3px 6px 2px 8px;
+        border: 1px solid black;
+        border-radius: 12px;
+        font-size: 14pxvw;
+        text-align: center;
+        background: rgb(70, 70, 70);
+        line-height: 70px;
+}
+
+.header, .footer {
+        padding: 0;
+}
+
+.container {
+        padding: 0;
+        margin: -7px;
+}
+
+li strong {
+        color: rgb(50, 50, 50);
+}
+
+strong {
+        font-size: 110%;
+        color: silver;
+}
+
+/*header {
+        height: 6.5vw;
+}*/
+
+a {
+        color: teal;
+        text-decoration: none;
+}
+
+.iSearch img, .iMenu img, .iHome img {
+ 	z-index: 1;
+	border: 1px solid silver;
+	margin: 0.8vw  0 0 0.7vw;
+	padding: -4px;
+	border-radius: 1.2vw;
+	height: 5vw;
+	width: 5vw;
+    position: fixed;
+}
+
+.iHome img {
+    margin: 7vw 0 0 0.7vw;
+    padding: -4px;
+}
+
+.iMenu img {
+	margin-top: 13.1vw;
+	position: padding: -4px;
+}
+
+.iSearch figcaption, .iMenu menu, .iHome figcaption {
+	z-index: 1;
+ 	margin: 2.5vw 0 0 7vw;
+	padding: 0vw;
+	height: 5vw;
+	width: auto;
+ 	position: fixed;
+	color: white;
+	font-size: 2vw;
+  	filter: opacity(30%);
+  	visibility: hidden;
+}
+
+.iSearch img:hover + figcaption, .iHome img:hover + figcaption, .iMenu:hover > menu {
+        filter: opacity(120%);
+        visibility: visible;
+        font-style: normal;
+}
+
+.iHome figcaption {
+	margin: 8.4vw 0 0 7vw;
+}
+
+h2 {
+        text-align: center;
+        color: teal;
+}
+
+h2:hover {
+        filter: brightness(80%);
+}
+
+.title:hover {
+        font-style: normal;
+}
+
+a:hover {
+        font-style: italic;
+}
+
+header .menu a, footer .menu a {
+        padding: 5px 12px 5px 12px;
+        margin: 0 -5px 0 -5px;
+        font-size: 20px;
+}
+
+footer .menu div {
+        padding: 5px 12px 5px 12px;
+        margin: 0 -5px 0 -5px;
+                font-size: 20px;
+                color: teal;
+}
+
+footer .menu ul li .nContact:hover + .contact {
+        display: inline;
+}
+
+footer .menu ul li .nSuivre:hover + .suivre {
+        display: inline;
+}
+
+
+.contact, .suivre {
+        display: none;
+}
+
+footer .menu ul li{
+        color: silver;
+        text-decoration: none;
+        display: inline;
+}
+
+img {
+        filter: opacity(30%);
+}
+
+.bandePoints {
+        width: 80vw;
+        height: 18px;
+        margin-left: 0;
+}
+
+
+
+img:hover {
+        filter: opacity(120%);
+}
+
+header, footer {
+        margin: 0;
+        text-align: center;
+        color: silver;
+        display: block;
+        border: 1px solid black;
+        padding: 20px;
+        position: initial;
+        background: rgb(75, 75, 75);
+        font-family: helvetica;
+        line-height: 1.5vw;
+}
+
+.barre { background: rgb(255, 100, 40); }
+
+.colCentered {
+        text-align: center;
+}
+
+.col-xs-6 {
+        border: 2px solid silver;
+        border-radius: 20px;
+        background: rgb(255, 200, 200);
+        display: inline-block;
+        padding: 70px;
+        margin: 15px;
+}
+
+row { display: block; }
+
+header strong {
+        font-size: 7vw;
+        color: silver;
+}
+
+section:hover, footer:hover, header:hover {
+        filter: brightness(110%);
+        filter: contrast(110%);
+}
+
+body {
+        font-size: 18px;
+}
+
+.iMenu menu {
+        position: fixed;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 6px;
+        margin: 13.1vw 0 0 0.7vw;
+        z-index: 1;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        background: rgb(140, 140, 140)
+}
+
+.imgContain {
+        text-align: center;
+        background: rgb(220, 220, 220);
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 10px 20px 6px 20px;
+}
